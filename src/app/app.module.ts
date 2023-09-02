@@ -52,7 +52,7 @@ function initializeKeycloak(keycloak: KeycloakService) {
       config: {
         url: "https://account.videocake.ir:40443/auth/",
         realm: 'ettesal',
-        clientId: 'your-client-id'
+        clientId: ''
       },
       initOptions: {
         onLoad: 'check-sso',
